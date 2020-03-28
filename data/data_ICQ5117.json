@@ -1,0 +1,89 @@
+{
+    "s1": [
+        ["Matemática I","MAT021",8,"MAT"],
+        ["Introducción a la Física","FIS100",5,"FIS"],
+        ["Química y Sociedad","QUI010",5,"QUI"],
+        ["Introducción a la Ingeniería","IWG101",3,"PC"],
+        ["Educación Física I","EFI100",2,"HUM"]
+    ],
+    "s2": [
+        ["Matemática II","MAT022",8,"MAT",["MAT021"]],
+        ["Física General I","FIS110",8,"FIS",["MAT021","FIS100"]],
+        ["Programación","IWI131",5,"PC"],
+        ["Humanístico I","HRW1",3,"HUM"],
+        ["Educación Física II","EFI101",2,"HUM",["EFI100"]]
+    ],
+    "s3": [
+        ["Matemática III","MAT023",7,"MAT",["MAT022"]],
+        ["Física General II","FIS120",7,"FIS",["MAT022","FIS110"]],
+        ["Química Básica","QUI026",7,"QUI",["QUI010"]],
+        ["Humanístico II","HRW2",3,"HUM"],
+        ["Inglés I","HCW100",3,"HUM"],
+        ["Taller de Ingeniería Química I","IQA010",2,"ICQ"]
+    ],
+    "s4": [
+        ["Matemática IV","MAT024",7,"MAT",["MAT023"]],
+        ["Balance de Materia","IQA126",7,"OPU",["MAT021","QUI026"]],
+        ["Química Inorgánica","QUI027",7,"QUI",["QUI026"]],
+        ["Economía I-A","ICS733",5,"IND",["MAT023"]],
+        ["Inglés II","HCW101",3,"HUM",["HCW100"]]
+    ],
+    "s5": [
+        ["Mecánica de Sistemas Fluidos","IQA221",7,"OPU",["FIS110"]],
+        ["Termodinámica de Procesos","IQA211",7,"OPU",["IQA126"]],
+        ["Química Orgánica","QUI028",7,"QUI",["QUI026"]],
+        ["Ingeniería Ambiental","IQA264",5,"ICQ",["IQA126"]],
+        ["Inglés III","HCW102",3,"HUM",["HCW101"]],
+        ["Taller de Ingeniería Química II","IQA020A",1,"ICQ",["IQA010"]]
+    ],
+    "s6": [
+        ["Transferencia de Calor","IQA222",7,"OPU",["IQA221","IQA211"]],
+        ["Termodinámica para Ingeniería Química","IQA212",7,"OPU",["IQA211"]],
+        ["Fenómenos de Transporte","IQA230",7,"OPU",["MAT023","IQA126"]],
+        ["Dibujo de Ingeniería de Procesos","IWM179",7,"PC"],
+        ["Inglés IV","HCW200",3,"HUM",["HCW102"]]
+    ],
+    "s7": [
+        ["Transferencia de Materia","IQA224",7,"OPU",["IQA222","IQA212"]],
+        ["Análisis y Diseño de Experimentos Industriales","IQA214",5,"ICQ",["IQA211"]],
+        ["Información y Control Financiero","IWN270",5,"IND",["ICS733"]],
+        ["Metalurgia y Materiales","ILC204",5,"PC",["FIS110"]],
+        ["Maquinaria Industrial Auxiliar","IWQ207",5,"PC",["MAT023","FIS120"]],
+        ["Taller de Ingeniería Química III","IQA030",2,"ICQ",["IQA020A"]]
+    ],
+    "s8": [
+        ["Fundamentos de Control Industrial","IQA350",7,"ICQ",["IQA224"]],
+        ["Ingeniería de Reactores","IQA261",7,"ICQ",["IQA224"]],
+        ["Física General IV","FIS140",7,"FIS",["FIS120"]],
+        ["Elementos del Diseño Mecánico","MECÁNICA",5,"PC",["IWM179"]],
+        ["Taller de Ingeniería Química IV","IQA040",3,"ICQ",["IQA030"]]
+    ],
+    "s9": [
+        ["Análisis de Procesos Químicos","IQA371",7,"ICQ",["IQA350","IQA261"]],
+        ["Laboratorio de Procesos","IQA228",8,"ICQ",["IQA350","IQA261"]],
+        ["Electivo de Especialidad I","IQA1",5,"ICQ"],
+        ["Electivo de Especialidad II","IQA2",5,"ICQ"],
+        ["Electivo de Formación Integral I","IQAFI1",3,"ICQ"],
+        ["Taller de Ingeniería Química V","IQA050",3,"ICQ",["IQA040"]]
+    ],
+    "s10": [
+        ["Proyectos","IQA381",7,"ICQ",["IQA371","IWN270"]],
+        ["Diseño de Procesos","IQA341",5,"ICQ",["IQA350","IQA261","IQA371"]],
+        ["Administración de la Producción y de la Calidad","IQA314",5,"ICQ",["IQA214"]],
+        ["Electivo de Especialidad III","IQA3",5,"ICQ"],
+        ["Electivo de Especialidad IV","IQA4",5,"ICQ"],
+        ["Electivo de Formación Integral II","IQAFI2",3,"ICQ"]
+    ],
+    "s11": [
+        ["Titulación I","IQA391",7,"ICQ",["IQA228","IQA341"]],
+        ["Proyectos Específicos","IQA382",7,"ICQ",["IQA341","IQA381"]],
+        ["Personas y Organización en la Industria de Procesos","IQA342",5,"ICQ",["IQA341"]],
+        ["Electivo de Especialidad V","IQA5",5,"ICQ"],
+        ["Electivo de Formación Integral III","IQAFI3",3,"ICQ"],
+        ["Humanístico III","HRW3",3,"HUM",["HRW2"]]
+    ],
+    "s12": [
+        ["Titulación II","IQA392",20,"ICQ",["IQA391"]],
+        ["Electivo de Especialidad VI","IQA6",5,"ICQ"]
+    ]
+}
