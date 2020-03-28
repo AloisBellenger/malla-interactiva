@@ -6,5 +6,6 @@
     "IND":["#6BA8D1","Industrias"],
     "QUI":["#daa520","Química"],
     "OPU":["#991B1E","Operaciones Unitarias"],
-    "ICQ":["#00AD5D","Ingeniería Quimica"]
+    "ICQ":["#00AD5D","Ingeniería Quimica"],
+    "EL":["#6D57A5","Electivos"]
 }
